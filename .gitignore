@@ -22,3 +22,14 @@ docs/site/
 # committed for packages, but should be committed for applications that require a static
 # environment.
 Manifest.toml
+
+
+# notebook checkpoints
+**/.ipynb_checkpoints/*
+
+# vs code files
+.vscode/*
+
+# files generated on MacOS
+*.*~
+.DS_Store
